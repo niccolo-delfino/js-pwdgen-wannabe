@@ -1,11 +1,14 @@
 var nome = prompt('Inserisci qui il tuo nome');
-document.getElementById('nome').innerHTML = nome
+document.getElementById('nome').innerHTML = nome;
 console.log(nome);
 
 var cognome = prompt('Inserisci qui il tuo cognome');
-document.getElementById('cognome').innerHTML = cognome
+document.getElementById('cognome').innerHTML = cognome;
 console.log(cognome);
 
 var colore = prompt('Inserisci qui il tuo colore preferito');
-document.getElementById('colore').innerHTML = colore
+document.getElementById('colore').innerHTML = colore;
 console.log(colore);
+
+var password = nome + cognome + colore + 2020;
+document.getElementById('password').innerHTML = password;
