@@ -4,14 +4,78 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Document</title>
+  <title>Fidati</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
 </head>
 <body>
+  <header>
 
-  <div id="nome"></div>
-  <div id="cognome"></div>
-  <div id="colore"></div>
-  <div id="password"></div>
+      <nav>
+        <div class="navtop">
+          <div class="container">
+            <img src="https://www.redditodicittadinanza.gov.it/images/logo.svg" alt="Logo Ministero">
+            <a href="#">Ministero del Lavoro e delle Politiche Sociali</a>
+          </div>
+        </div>
+        <div class="navbottom">
+          <div class="container">
+            <img src="https://www.redditodicittadinanza.gov.it/images/logo-rdc.png" alt="Logo Ministero">
+          </div>
+        </div>
+        <div class="tricolore">
+          <div class="verde"></div>
+          <div class="bianco"></div>
+          <div class="rosso"></div>
+        </div>
+      </nav>
+
+    </header>
+
+    <main>
+
+      <section class="container">
+        <div class="saluto">
+          <h1>Ciao!</h1>
+          <p>Benvenuto, nella tua Area Riservata dell'ASSOLUTAMENTE VERISSIMO sito del Ministero per richiedere il Rettido di Cittadinanza che SICURAMENTE ti spetta.</p>
+        </div>
+
+        <div class="dati">
+          <div>
+            <span>Il tuo nome è: </span><span><stron id="nome"></stron></span>
+          </div>
+          <div>
+            <span>Il tuo cognome è: </span><span><stron id="cognome"></stron></span>
+          </div>
+          <div>
+            <span>Il tuo colore preferito è: </span><span><stron id="colore"></stron></span>
+          </div>
+          <div>
+            <span>La tua password INCREDIBILMENTE sicura è: </span><span><stron id="password"></stron></span>
+          </div>
+        </div>
+      </section>
+      <section class="action container">
+        <h2>Bene!</h2>
+        <span>Ora insersci qui il tuo numero della Carta di Credito su cui vuoi ricevere il Reddito di Cittadinanza e il Codice di sicurezza che trovi sul retro :)</span>
+        <div class="form">
+          <input type="text" name="N° Carta di credito" minlength="13" maxlength="16" placeholder="N° Carta di credito" required>
+          <input type="text" name="N° CVV/CVC" minlength="3" maxlength="3" placeholder="N° CVV/CVC" required>
+          <input type="submit" value="INVIA">
+        </div>
+        <h2>Grazie!</h2>
+        <span>Ora rilassati pure sul divano ;)</span>
+      </section>
+
+    </main>
+
+    <footer>
+      <p>Anche se ti sto tuffando il footer è troppo noioso da fare, quindi scusa, ma non ne vale la pena!</p>
+      <p>Tu fidaci e dacci i tuoi dati ;)</p>
+    </footer>
+
+
 
   <script src="js/script.js" charset="utf-8"></script>
 </body>
